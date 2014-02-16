@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "AstroLib", "AstroLib.cppproj", "{BE45EAAD-9621-4D25-8563-77041D54CEAF}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Unit_Test", "Unit_Test\Unit_Test.cppproj", "{F915D9BE-445D-4B87-B39A-FF30F7CE9C03}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BE45EAAD-9621-4D25-8563-77041D54CEAF} = {BE45EAAD-9621-4D25-8563-77041D54CEAF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE45EAAD-9621-4D25-8563-77041D54CEAF}.Debug|AVR.ActiveCfg = Debug|AVR
+		{BE45EAAD-9621-4D25-8563-77041D54CEAF}.Debug|AVR.Build.0 = Debug|AVR
+		{BE45EAAD-9621-4D25-8563-77041D54CEAF}.Release|AVR.ActiveCfg = Release|AVR
+		{BE45EAAD-9621-4D25-8563-77041D54CEAF}.Release|AVR.Build.0 = Release|AVR
+		{F915D9BE-445D-4B87-B39A-FF30F7CE9C03}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F915D9BE-445D-4B87-B39A-FF30F7CE9C03}.Debug|AVR.Build.0 = Debug|AVR
+		{F915D9BE-445D-4B87-B39A-FF30F7CE9C03}.Release|AVR.ActiveCfg = Release|AVR
+		{F915D9BE-445D-4B87-B39A-FF30F7CE9C03}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
